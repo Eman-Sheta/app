@@ -24,4 +24,22 @@ class MyTheme {
         titleSmall: TextStyle(
             fontSize: 20, fontWeight: FontWeight.w400, color: blackColor),
       ));
+  static ThemeData darkMode = ThemeData(
+      primaryColor: primaryDark,
+      scaffoldBackgroundColor: Colors.transparent,
+      appBarTheme: AppBarTheme(
+          color: Colors.transparent,
+          elevation: 0,
+          centerTitle: true,
+          iconTheme: IconThemeData(color: whiteColor)),
+      bottomNavigationBarTheme: BottomNavigationBarThemeData(
+          selectedItemColor: yellowColor, unselectedItemColor: whiteColor),
+      textTheme: TextTheme(
+        titleLarge: TextStyle(
+            fontSize: 30, fontWeight: FontWeight.bold, color: whiteColor),
+        titleMedium: TextStyle(
+            fontSize: 25, fontWeight: FontWeight.w500, color: whiteColor),
+        titleSmall: TextStyle(
+            fontSize: 20, fontWeight: FontWeight.w400, color: yellowColor),
+      ));
 }
