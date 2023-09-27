@@ -1,6 +1,6 @@
 import 'package:app_islami/provider/app_config_provider.dart';
 import 'package:app_islami/quran/quran_tab.dart';
-import 'package:app_islami/radio_tab.dart';
+import 'package:app_islami/radio/radio_tab.dart';
 import 'package:app_islami/settings_tab.dart';
 import 'package:app_islami/tasbeh_tab.dart';
 import 'package:flutter/material.dart';
