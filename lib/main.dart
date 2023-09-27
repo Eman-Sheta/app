@@ -1,3 +1,4 @@
+import 'package:app_islami/hadeth/hadeth_details.dart';
 import 'package:app_islami/home_screen.dart';
 import 'package:app_islami/my_theme.dart';
 import 'package:app_islami/quran/sura_details.dart';
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       routes: {
         HomeScreen.routeName: (context) => HomeScreen(),
         Suradetails.routeName: (context) => Suradetails(),
+        Hadethdetails.routeName: (context) => Hadethdetails(),
       },
       theme: MyTheme.lightMode,
     );

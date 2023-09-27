@@ -4,7 +4,7 @@ import 'package:app_islami/settings_tab.dart';
 import 'package:app_islami/tasbeh_tab.dart';
 import 'package:flutter/material.dart';
 
-import 'hadeth_tab.dart';
+import 'hadeth/hadeth_tab.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String routeName = 'heme-screen';
